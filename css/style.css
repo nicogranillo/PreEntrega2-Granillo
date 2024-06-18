@@ -1,0 +1,69 @@
+/* estructura basica
+
+elemento{
+    propiedad: valor;
+}*/
+
+.logo_1 {
+    height: 100%;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header {
+    background-color: #b988b9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 15%;
+    display: flex;
+}
+
+main {
+    position: absolute;
+    top: 15%;
+    background-color: #d8c0d8;
+    z-index: -1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 15% ;
+    width: 100%;
+    background-color: #813b81;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+    width: 100%;
+}
+
+.home img {
+    width: 50%;
+}
+
+.quienes_somos {
+    width: 100%;
+}
+
+.quienes_somos img {
+    width: 25%;
+}
+
+.productos {
+    width: 100%;
+}
+
+.productos img {
+    width: 20%
+}
